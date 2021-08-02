@@ -57,7 +57,6 @@
     $conexao=mysqli_connect("database1.cw3frybg0axw.us-east-1.rds.amazonaws.com", "admin", "HECR12-34h");
 
     mysqli_select_db($conexao,"estacionamento");
-    $query = "insert into veiculos (idProprietario) values (idProprietario)";
     $placaVeiculo = $_POST["placaVeiculo"];
     $nomeProprietario = $_POST["nomeProprietario"];
     $cpfProprietario = $_POST["cpfProprietario"];
