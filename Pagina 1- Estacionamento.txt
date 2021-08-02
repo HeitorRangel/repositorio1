@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <title>Pagina 1-Estacionamento</title>
+    <head>
+	<meta charset="utf-8">
+        <div align="left">
+            <em>Nome: Heitor Espinosa de Carvalho Rangel</em><br>
+            <em>Curso: Técnico de Informática</em><br>
+            <em>Turma: 4º Módulo/Concomitante</em><br>
+        </div>
+    </head>
+    
+    <body bgcolor="LightGray">
+        <hr> 
+        <center>
+            <br><h1 style="color:MediumSeaGreen;";">Estacionamento 24H</h1>
+        </center>
+       
+        <h2>Valores(por hora)</h2>
+            <table style="width:50%" border = 1px>
+                <tr>
+                    <th>Veículos</th>
+                    <th>Bicicletas</th>
+                    <th>Motos</th>
+                    <th>Carros</th>
+                    <th>Reboque</th>
+                </tr>
+                <tr>
+                    <th>Preço</th>
+                    <th>R$ 2,00</th>
+                    <th>R$ 3,00</th>
+                    <th>R$ 4,00</th>
+                    <th>R$ 5,00</th>
+                </tr>
+                <tr>
+                    <th>Bloco</th>
+                    <th> <img src= "bloco A.png" style="width:50px;height:60px;"> </th>
+                    <th> <img src= "bloco B.png" style="width:50px;height:60px;"> </th>
+                    <th> <img src= "bloco C.png" style="width:50px;height:60px;"> </th>
+                    <th> <img src= "bloco D.png" style="width:50px;height:60px;"> </th>
+                </tr>
+            </table><br>
+            <b>Avisos e Restrições:</b>
+            <ol>
+                <li>O pagamento é realizado ao dar entrada no Estacionamento ou através de reserva antecipada</li>
+                <li>Não nos responsabilizamos por quaisquer danos causados ao conduzir o veículo dentro do estabelecimento</li>
+                <li>Não é permitida a entrada e/ou permanência de veículos sem placa ou não registrados</li>
+            </ol>
+            
+            <a href= "https://autopark.com.br/wp-content/uploads/2019/12/imagem-destaque.png">Entrada do Estacionamento</a><br>
+
+            <br><h2>Siga nossas redes sociais!</h2>
+            <ul>
+                <li><a href ="https://pt-br.facebook.com/">Facebook</a></li><br>
+                <li><a href ="https://www.instagram.com/">Instagram</a></li><br>
+            </ul>
+            
+            <div align="right">
+                <h3>Link para nossa segunda página:</h3>
+                <a href="Pagina 2- Formulário.php"><img src="logo.png" style="width:50px;height:60px;"></a>
+            </div>  
+    </body>
+</html>

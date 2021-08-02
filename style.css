@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  footer{
+    text-align: center;
+    font-size: 0.7em;
+    color: white;
+  }
+  #conteiner{
+    width: 70%;
+    margin: 80px auto;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  body{
+    font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+    background-color: gray;
+  }
+  
+  th{
+    border: 1px solid black;
+    padding: 4px;
+  }
+  
+  .icon{
+    width: 75px;
+  }
+  
+  #social{
+    list-style: none;
+    padding: 25px;
+  }
+  
+  .laranja{
+    color: orange;
+  }
+  
+  #formulario{
+    font-size: 1.2em;
+    color: orange;
+    text-decoration: none;
+  }
+  
+  #formulario:hover{
+    text-decoration: underline;
+  }
+  
+  #formularioTitulo{
+    margin-bottom: 20px;
+  }
+  
+  #entrada{
+    font-size: 1.2em;
+    color: orange;
+    text-decoration: none;
+  }
+  
+  #entrada:hover{
+    text-decoration: underline;
+  }
+  
+  #cabecalho{
+    text-align: center;
+  }
+  

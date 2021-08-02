@@ -1,0 +1,31 @@
+<html>
+    <meta charset=UTF-8>
+    Para alterar a forma de pagamento clique abaixo: <hr>
+
+    <form method=POST>
+        ID: <input type=text name=idProprietario>
+        Nova forma de pagamento: <input type=text name=formaPagamento>
+        <input type=submit value="Alterar forma de pagamento">
+        <a href="Pagina2- Formulário.php"><input type=button value="Voltar"></a>
+    </form>
+</html>
+
+<?php
+    if(isset($_POST["idProprietario"]))
+    {
+        //usuário e senha no phpmyadmin
+        $conexao=mysqli_connect("200.143.198.37", "aluno23", "v4exbmu3mg23");
+        mysqli_select_db($conexao,"banco23");
+        $idProprietario= $_POST["idProprietario"];
+        $formaPagamento= $_POST["formaPagamento"];
+        mysqli_query ($conexao,"update Veiculos set formaPagamento='$formaPagamento' where idProprietario=$idProprietario");
+        $consulta = mysqli_query($conexao,"select * from Veiculos");
+
+        while($exibir = mysqli_fetch_array($consulta))
+        {
+            echo "<br>ID: ".$exibir['idProprietario'];
+            echo " - Forma de Pagamento: ".$exibir['formaPagamento'];
+        }
+        mysqli_close($conexao);
+    }
+?>
