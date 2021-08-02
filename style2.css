@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  footer{
+    text-align: center;
+    font-size: 0.7em;
+    color: white;
+  }
+  #conteiner{
+    width: 70%;
+    margin: 80px auto;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  body{
+    font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+    background-color: gray;
+  }
+  
+  #cabecalho{
+    text-align: center;
+  }
+  
