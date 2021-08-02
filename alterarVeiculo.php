@@ -16,7 +16,7 @@
     mysqli_select_db($conexao,"estacionamento");
     $placaVeiculo= $_POST["placaVeiculo"];
     $formaPagamento= $_POST["formaPagamento"];
-    mysqli_query ($conexao,"update veiculos set formaPagamento='$formaPagamento' where placaVeiculo=$placaVeiculo");
+    mysqli_query ($conexao,"update veiculos set formaPagamento='$formaPagamento' where placaVeiculo='$placaVeiculo'");
     $consulta = mysqli_query($conexao,"select * from veiculos");
     mysqli_close($conexao);
     
