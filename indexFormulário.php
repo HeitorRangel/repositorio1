@@ -57,7 +57,7 @@
     {
         $conexao=mysqli_connect("database1.cw3frybg0axw.us-east-1.rds.amazonaws.com", "admin", "HECR12-34h");
 
-        mysqli_select_db($conexao,"veiculos.estacionamento");
+        mysqli_select_db($conexao,"estacionamento");
         $idProprietario = $_POST["idProprietario"];
         $nomeProprietario = $_POST["nomeProprietario"];
         $cpfProprietario = $_POST["cpfProprietario"];
